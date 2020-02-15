@@ -13,6 +13,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0",
+    "safe-spinner": "file:..",
     "typescript": "~3.7.2"
   },
   "scripts": {
