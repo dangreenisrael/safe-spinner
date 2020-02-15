@@ -2,8 +2,13 @@
   "name": "safe-spinner",
   "version": "1.0.0",
   "description": "A react wrapper for spinners with a timeout",
-  "main": "index.js",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
   "author": "Dan Green-Leipciger",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "react": "^16.12.0",
+    "typescript": "^3.7.5"
+  }
 }
