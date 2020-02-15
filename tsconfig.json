@@ -13,5 +13,6 @@
     "lib": ["dom", "ES2017"],
     "outDir": "dist"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["**/*.spec.*"]
 }
