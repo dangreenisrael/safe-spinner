@@ -2,7 +2,7 @@
   "name": "safe-spinner",
   "version": "1.0.0",
   "description": "A react wrapper for spinners with a timeout",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Dan Green-Leipciger",
   "license": "MIT",
@@ -15,9 +15,7 @@
     "eslint-plugin-react-hooks": "^2.3.0",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
-    "typescript": "^3.7.5"
-  },
-  "dependencies": {
+    "typescript": "^3.7.5",
     "@types/react": "^16.9.19",
     "eslint": "^6.8.0"
   }

@@ -10,9 +10,7 @@
     "jsx": "react",
     "declaration": true,
     "lib": ["dom", "ES2017"],
-    "outDir": "dist",
+    "outDir": "dist"
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"]
 }
