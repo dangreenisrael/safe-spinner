@@ -1,0 +1,9 @@
+{
+  "name": "safe-spinner",
+  "version": "1.0.0",
+  "description": "A react wrapper for spinners with a timeout",
+  "main": "index.js",
+  "author": "Dan Green-Leipciger",
+  "license": "MIT",
+  "private": false
+}
