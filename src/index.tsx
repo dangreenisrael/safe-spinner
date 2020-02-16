@@ -16,10 +16,10 @@ const SafeSpinner: React.FunctionComponent<ISafeSpinner> = props => {
   React.useEffect(() => {
     let timeoutId: number;
     if (props.onTimeout) {
-      timeoutId = window.setTimeout(props.onTimeout, props.timeout || 10000);
+      timeoutId = setTimeout(props.onTimeout, props.timeout || 10000);
     }
     return () => {
-      window.clearTimeout(timeoutId);
+      clearTimeout(timeoutId);
     };
   });
   return props.children;
