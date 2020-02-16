@@ -9,7 +9,9 @@
   "private": false,
   "scripts": {
     "test": "jest src/*",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint src/*",
+    "prepublish": "yarn prettier --ci; yarn lint; yarn test;"
   },
   "files": [
     "dist/**/*"
