@@ -1,6 +1,8 @@
 # Safe Spinner
 
-This package helps address 'infinite spinners' by allowing you to fire a handler when they occur. Generally this would send an event to a service like [Sentry](https://getsentry.com/).
+This package helps address the risk of 'infinite spinners' by allowing you to fire a handler when they occur. Generally this would send an event to a service like [Sentry](https://getsentry.com/).
+
+This component only renders it's children, it does not add any new UI element.
 
 ## Installation
 
